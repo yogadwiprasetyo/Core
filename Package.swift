@@ -15,8 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/realm/realm-swift.git", .upToNextMajor(from: "10.42.0")),
-        .package(url: "https://github.com/realm/realm-core.git", .upToNextMajor(from: "13.17.1"))
+        .package(url: "https://github.com/realm/realm-swift.git", .upToNextMajor(from: "10.42.0"))
         
     ],
     targets: [
